@@ -1,0 +1,17 @@
+[package]
+name = 'mfc/test-module'
+version = '0.1.0'
+description = 'Description for package'
+ 
+[[module]]
+name = 'test-module'
+source = 'target/release/test-module.wasm'
+ 
+[[command]]
+runner = 'wasi'
+name = 'test-module'
+module = 'test-module'
+
+[command.annotations.wasi]
+main-args = ["--verbose"]
+env = ["RUST_LOG=debug"]
