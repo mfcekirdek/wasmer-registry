@@ -1,7 +1,0 @@
-{
-    "packages": {
-        "test-module": {
-            "versions": ["v1.0.0"]
-        }
-    }
-}
