@@ -1,0 +1,13 @@
+{
+    "name": "mfcekirdek/evtxparser",
+    "version": "0.1.0",
+    "description": "EVTX parser",
+    "args": [
+        {   
+            "name": "chunkSize",
+            "type": "int",
+            "value": 1000
+        }
+    ],
+    "env": []
+}
